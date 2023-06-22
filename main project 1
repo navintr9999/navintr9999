@@ -1,0 +1,37 @@
+# mini project - 1
+print('welcome to the game!')
+
+playing = input('do you want to play the game? ')
+if playing != "yes":
+    quit()
+print("okay! lets play the game")
+score = 0
+
+answer = input("what does cpu stands for? ")
+if answer.lower() == "central processing unit":
+    print("correct")
+    score += 1
+else :
+    print("incorrect")
+
+answer = input("what does gpu stands for? ")
+if answer.lower() == "graphical processing unit":
+    print("correct")
+    score += 1
+else :
+    print("incorrect")
+
+answer = input("what does ram stands for? ")
+if answer.lower() == "random access memory":
+    print("correct")
+    score += 1
+else :
+    print("incorrect")
+
+
+print("You scored " + str(score) + ' questions correct!')
+print("you scored " + str((score / 3) * 100) + '%')
+
+# mini project - 2
+
+
